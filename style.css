@@ -1,0 +1,179 @@
+@font-face {
+	font-family: 'Elevation';
+	src: url('Fonts/Elevation.ttf');
+}
+
+@font-face {
+	font-family: 'BookAntiqua';
+	src: url('Fonts/BKANT.ttf');
+}
+
+@font-face {
+	font-family: 'Timepiece';
+	src: url('Fonts/Timepiece.TTF');
+}
+
+@font-face {
+	font-family: 'Walkway';
+	src: url('Fonts/Walkway.ttf');
+}
+
+@font-face {
+	font-family: 'WalkwayBlack';
+	src: url('Fonts/WalkwayBlack.ttf');
+}
+
+@font-face {
+	font-family: 'CODELight';
+	src: url('Fonts/CODE Light.otf');
+}
+
+@font-face {
+	font-family: 'CODEBold';
+	src: url('Fonts/CODE Bold.otf');
+}
+
+a 
+{
+	font-family: 'WalkwayBlack';
+	font-size: 20px;
+	text-decoration:none;
+	color:white;
+}
+
+img.Logo
+{
+	border: solid;
+	border-color: #ffffff;
+	box-shadow: 6px 6px 20px black;
+}
+
+h1
+{
+
+	font-size: 70px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	color: #ffffff;
+}
+
+h2
+{
+	font-family: 'CODEBold';
+	text-decoration: none;
+	padding-top: 35px;
+	color: #ffffff;
+	font-size: 40px;
+}
+
+h3 
+{
+	font-family: 'CODEBold';
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 30px;
+}
+
+h4
+{
+	font-family: 'CODELight';
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 25px;
+}
+
+p 
+{
+	font-family: 'WalkwayBlack';
+	color:white;
+	padding-right: 20%;
+	padding-left: 20%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #19118b;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+}
+
+li {
+    display: inline;
+    float: left ;
+    margin: auto;
+}
+
+li ul {
+	display: none;
+	position: absolute;
+}
+
+li:hover ul li {
+	float: none;
+}
+
+li ul li a {
+	padding: 5px;
+	display: block;
+}
+
+li:hover ul{
+	display: block;
+}
+
+li a {
+	font-family: 'WalkwayBlack';
+	font-size: 150%;
+    display: block;
+    padding: 16px;
+    border-right: 1px solid #ffffff;
+    text-align: center;
+}
+
+li a:hover, a:focus
+{
+    background-color: #ffffff;
+    color: #19118b;
+    text-decoration: none;
+}
+
+table {
+	font-family: 'Timepiece';
+	font-size: 15px;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th {
+	text-align: center;
+	color:white;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+a.link {
+	color: #ff9c00;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+img.screens:hover {
+        transform: scale(1.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+body 
+{
+
+	background-color: #07005f;
+	padding-bottom: 10%;
+}
